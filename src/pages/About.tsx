@@ -152,6 +152,47 @@ const About = () => {
           </div>
         </section>
 
+        {/* Resume Download */}
+        <section className="mb-20">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-8">Resume</h2>
+            <Card className="gradient-card border-0 shadow-soft max-w-4xl mx-auto">
+              <CardContent className="p-8">
+                <div className="mb-6">
+                  <img 
+                    src="/lovable-uploads/5ae75950-6423-4528-b19e-f51eab354603.png"
+                    alt="Heth Katelia Resume"
+                    className="w-full max-w-3xl mx-auto rounded-lg shadow-hover border border-primary/20"
+                  />
+                </div>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                  <a 
+                    href="/lovable-uploads/5ae75950-6423-4528-b19e-f51eab354603.png"
+                    download="Heth_Katelia_Resume.png"
+                    className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-smooth font-medium"
+                  >
+                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    Download Resume
+                  </a>
+                  <a 
+                    href="/lovable-uploads/5ae75950-6423-4528-b19e-f51eab354603.png"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-smooth font-medium"
+                  >
+                    <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                    View Full Size
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
         {/* Certifications & Achievements */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Certifications */}

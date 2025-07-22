@@ -52,8 +52,8 @@ const Contact = () => {
     {
       icon: Linkedin,
       title: 'LinkedIn',
-      username: '@heth-katelia-',
-      href: 'https://linkedin.com/in/heth-katelia-',
+      username: '@heth-katelia-742617281',
+      href: 'https://www.linkedin.com/in/heth-katelia-742617281',
       description: 'Connect with me professionally'
     }
   ];

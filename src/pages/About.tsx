@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 const About = () => {
   const education = [
     {
-      degree: 'B.Tech in Engineering',
+      degree: 'B.Tech in Computer Engineering',
       institution: 'KJ Somaiya Institute of Technology',
       grade: 'SGPA: 8.45/10',
       year: '2021 - 2025',
@@ -60,6 +60,19 @@ const About = () => {
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             About <span className="gradient-primary bg-clip-text text-transparent">Me</span>
           </h1>
+          
+          {/* Profile Image */}
+          <div className="mb-8">
+            <div className="w-48 h-48 mx-auto relative">
+              <img 
+                src="/lovable-uploads/c121713c-0ccf-49bc-abe8-e5f7262b7db5.png"
+                alt="Heth Katelia - Full Stack Developer"
+                className="w-full h-full object-cover rounded-full shadow-hover border-4 border-primary/20"
+              />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-t from-primary/20 to-transparent"></div>
+            </div>
+          </div>
+
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
               I'm a passionate Full Stack Developer and Data Analyst based in Mumbai, India. With expertise in 

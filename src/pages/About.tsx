@@ -28,8 +28,9 @@ const About = () => {
   ];
 
   const skills = [
-    { category: 'Programming Languages', items: ['Java', 'Python', 'JavaScript', 'TypeScript', 'SQL'], icon: Code2 },
-    { category: 'Web Development', items: ['Angular', 'React', 'Spring Boot', 'HTML5', 'CSS3', 'REST APIs'], icon: Globe },
+    { category: 'Programming Languages', items: ['Core Java', 'Advanced Java', 'Python', 'JavaScript', 'TypeScript', 'SQL'], icon: Code2 },
+    { category: 'Web Development', items: ['Angular', 'React', 'Spring Boot', 'Spring', 'Spring MVC', 'HTML5', 'CSS3', 'REST APIs'], icon: Globe },
+    { category: 'Java Technologies', items: ['JDBC', 'Servlets', 'JSP', 'Spring Boot', 'Spring', 'Spring MVC', 'Microservices'], icon: Code2 },
     { category: 'Data & Analytics', items: ['Power BI', 'Excel', 'Data Visualization', 'Business Intelligence'], icon: Database },
     { category: 'Tools & Technologies', items: ['Git', 'Linux', 'Microservices', 'JWT', 'Docker'], icon: Shield }
   ];
